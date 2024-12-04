@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="/home.css">
+    <script src="/home.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Top Frame -->
+        <div class="top-frame">
+            <div class="logo">📚</div>
+            <div class="site-name">Online Bookstore</div>
+            <div class="top-links">
+                <a href="#" onclick="loadPage('home')">Home</a>
+                <a href="#" onclick="loadPage('login')">Login</a>
+                <a href="#" onclick="loadPage('registration')">Registration</a>
+                <a href="#" onclick="loadPage('catalogue')">Catalogue</a>
+                <a href="#" onclick="loadPage('cart')">Cart</a>
+            </div>
+        </div>
+
+        <!-- Left Frame -->
+        <div class="left-frame">
+            <ul>
+                <li><a href="#" onclick="loadCatalogue('CSE')">CSE</a></li>
+                <li><a href="#" onclick="loadCatalogue('ECE')">ECE</a></li>
+                <li><a href="#" onclick="loadCatalogue('EEE')">EEE</a></li>
+                <li><a href="#" onclick="loadCatalogue('Civil')">CIVIL</a></li>
+            </ul>
+        </div>
+
+        <!-- Right Frame -->
+        <div class="right-frame">
+            <div id="content">
+                <p>Welcome to the Online Bookstore! Select a category from the left to view available books.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

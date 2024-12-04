@@ -1,0 +1,137 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the frames */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Top Frame */
+.top-frame {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-frame .logo {
+    font-size: 24px;
+}
+
+.top-frame .site-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-frame .top-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.top-frame .top-links a:hover {
+    text-decoration: underline;
+}
+
+/* Main content area with left and right frames */
+.main-content {
+    display: flex;
+    flex-grow: 1;
+}
+
+/* Left Frame */
+.left-frame {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.left-frame ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-frame li {
+    margin: 10px 0;
+}
+
+.left-frame a {
+    color: #333;
+    text-decoration: none;
+}
+
+.left-frame a:hover {
+    text-decoration: underline;
+}
+
+/* Right Frame */
+.right-frame {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+#content {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Catalogue Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+img {
+    width: 50px;
+    height: 75px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
